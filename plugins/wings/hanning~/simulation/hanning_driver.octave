@@ -1,0 +1,12 @@
+%
+% $Id: hanning_driver.octave 35 2006-03-09 10:41:15Z mb $
+%
+size=4096;
+sr=44100;
+f=300;
+X=[0:(1/sr):((size/sr)-(1/sr))];
+Y=sin(X*2*pi*f);
+w=hanning(size);
+out=Y.*w';
+plot(out);
+pause(10000);

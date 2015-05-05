@@ -1,0 +1,28 @@
+nerdz-pd-plugins -- History of visible changes.
+
+Copyright (C) 2006, Nicola Bernardini, Marco Braggion, Amalia De Goetzen
+                    <studenti-nerds@lists.sme-ccppd.org>
+See the end for copying conditions.
+
+Please send nerdz-pd-plugins bug reports to studenti-nerds@lists.sme-ccppd.org.
+
+Version 0.0.1
+
+* Initial stage - big plans, but very little already implemented
+
+-------------------------------------------------------
+Copying information:
+
+Copyright (C) 2006, Nicola Bernardini, Marco Braggion, Amalia De Goetzen
+                    <studenti-nerds@lists.sme-ccppd.org>
+
+   Permission is granted to anyone to make or distribute verbatim copies
+   of this document as  received,  in  any  medium,  provided  that  the
+   copyright notice and  this  permission  notice  are  preserved,  thus
+   giving the recipient permission to redistribute in turn.
+
+   Permission  is  granted  to  distribute  modified  versions  of  this
+   document, or of portions of it, under the above conditions,  provided
+   also that they carry prominent notices stating who last changed them.
+-------------------------------------------------------
+$Id: NEWS 40 2006-03-23 08:52:44Z nicb $

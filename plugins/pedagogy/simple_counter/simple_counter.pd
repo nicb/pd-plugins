@@ -1,0 +1,35 @@
+#N canvas 26 114 499 348 10;
+#X floatatom 14 219 5 0 0 0 - - -;
+#X obj 14 12 bng 15 250 50 0 empty empty empty 0 -6 0 8 -262144 -1
+-1;
+#X text 35 11 a bang steps the counter;
+#X text 9 246 simple_counter has been coded by Amalia de Goetzen and
+;
+#X text 9 261 Marco Braggion (Nerdz student group \, Scuola di Musica
+;
+#X text 9 276 Elettronica \, Conservatorio di Padova \, Italy) and
+it is;
+#X text 9 291 released under the GNU/GPL 2 License.;
+#X text 56 219 the first outlet shows the result.;
+#X text 8 314 $Revision: 0.5 $;
+#X msg 41 33 clear;
+#X text 90 34 clears the counter;
+#X obj 277 6 cnv 15 210 60 empty empty empty 20 12 0 14 -241291 -241291
+0;
+#X text 283 10 simple_counter is a very;
+#X text 283 25 down-to-earth counter module \,;
+#X text 283 40 very easy to use.;
+#X msg 51 59 set 3 7;
+#X msg 51 81 set 20;
+#X msg 51 102 set;
+#X msg 51 125 set 6 2;
+#X obj 14 186 simple_counter 1 10;
+#X msg 55 154 reset 2 5;
+#X connect 1 0 19 0;
+#X connect 9 0 19 0;
+#X connect 15 0 19 0;
+#X connect 16 0 19 0;
+#X connect 17 0 19 0;
+#X connect 18 0 19 0;
+#X connect 19 0 0 0;
+#X connect 20 0 19 0;

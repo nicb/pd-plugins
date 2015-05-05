@@ -1,0 +1,12 @@
+Still to be done in object [simple_counter]:
+
+- implement the 'reset' message (resets to the default arguments; requires the
+  implementation of the sc_core dflt structure, etc.)
+
+- implement the 'loop' message ([loop 20 30( loops from 20 to 30)
+
+- implement the counter direction (this should be implemented as follows:
+  start/end limits indicate the direction, step is always positive - and
+  should be abs()'ed when the step is negative)
+
+$Id: TODO 26 2006-02-04 15:44:44Z nicb $

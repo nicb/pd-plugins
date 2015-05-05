@@ -1,0 +1,20 @@
+%
+% $Id: rcepstrum_driver.octave 28 2006-02-23 08:41:59Z nicb $
+%
+sr = 44100;
+bufsize = 4096;
+sample_period=(2*pi)/bufsize
+X=[0:sample_period:2*pi-sample_period];
+size(X)
+freq = 100
+sig = sin(X*freq)+(0.5*sin(2*X*freq))+(0.33*sin(3*X*freq)); % sqwave approx
+[cr, ci] = cepstrum(sig,sr,bufsize);
+
+figure(1);
+plot(sig(1:500));
+figure(2);
+plot(cr(1:22050));
+figure(3);
+plot(ci(1:100));
+
+pause (10000);

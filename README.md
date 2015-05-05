@@ -1,4 +1,4 @@
-# pd-plugins
+# ![Nerdz!](https://github.com/nicb/pd-plugins/blob/master/trac/htdocs/pd.png) pd-plugins
 
 PureData plugins (mostly for didactic purposes).
 
